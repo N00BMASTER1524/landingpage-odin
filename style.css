@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -12,7 +13,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 100px; /* first value (10px) top bottem secound is left right */
+    padding: 10px 50px; /* first value (10px) top bottem secound is left right */
 
 }
 
