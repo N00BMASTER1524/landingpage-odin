@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* header */
+
+.header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.logo{
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul{
+    list-style: none; /*removes the dots */
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li{
+    margin-right: 20px; /* space between the nav link */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
