@@ -12,7 +12,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 50px; /* first value (10px) top bottem secound is left right */
+    padding: 10px 100px; /* first value (10px) top bottem secound is left right */
 
 }
 
@@ -43,23 +43,25 @@ nav a {
 
 .hero{
     background-color: #1f2937;
-    padding: 0 50px;
+    padding: 0 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
 }
 
 .hero-content{
     max-width: 600px;
-    margin: 0 50px;
-    text-align: center;
+    text-align: left;
 
 }
 
 .hero-content h1{
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    color: #fff;
 }
 
 .hero-content p{
@@ -80,10 +82,82 @@ nav a {
     text-decoration: none; /* Ensures no text decoration */
 }
 
-.hero-img{
+
+/* Info Section */
+.info {
+    padding: 40px 50px;
     text-align: center;
 }
 
-.hero-img{
-    max-width: 400px;
+.info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.info-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.info-card {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #4682b4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Testimonial Section */
+.testimonial {
+    background-color: #e6e6e6;
+    padding: 40px 50px;
+    text-align: center;
+    font-style: italic;
+    color: #444;
+}
+
+.testimonial .quote{
+    text-align: right;
+}
+
+/* Call-to-Action Section */
+.call-to-action {
+    background-color: #4682b4;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    margin: 75px;
+}
+
+.call-to-action .cta-text h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.call-to-action p {
+    font-size: 14px;
+}
+
+.call-to-action button {
+    background-color: white;
+    color: #4682b4;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
